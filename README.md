@@ -2,7 +2,7 @@
 Artificial neural networks are computing models based on human neural systems. ANN consists of nodes that are connected and form a complete-oriented graph. The graph divides into input, output, and hidden layers and computes the probability based on each connection weight. This project was manually coding an Ann model.
 
 # Table of content
-- Dataset and normalization
+- [Dataset and normalization](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#dataset-and-normalization) 
 - Forward Phase
 - Backward Phase
 - Train and evaluation

@@ -4,7 +4,7 @@ Artificial neural networks are computing models based on human neural systems. A
 # Table of content
 - [Dataset and normalization](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#dataset-and-normalization) 
 - [Forward Phase](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#forward-phase)
-- Backward Phase
+- [Backward Phase](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#backward-phase)
 - Train and evaluation
 
 # Dataset and normalization

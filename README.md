@@ -5,7 +5,7 @@ Artificial neural networks are computing models based on human neural systems. A
 - [Dataset and normalization](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#dataset-and-normalization) 
 - [Forward Phase](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#forward-phase)
 - [Backward Phase](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#backward-phase)
-- Train and evaluation
+- [Train and evaluation](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#train--evaluation)
 
 # Dataset and normalization
 The Dataset we are training our code for is Mnist. We chose the Mnist Dataset for its simplicity. Each test data has a label so we could train the model based on the labels. We need a 10*1 vector of the encoded label for each train data. 

@@ -10,17 +10,23 @@ Artificial neural networks are computing models based on human neural systems. A
 
 # Dataset and normalization
 The Dataset we are training our code for is Mnist. We chose the Mnist Dataset for its simplicity. In Mnist we have 80000 images, each has 28*28 resolution. 
-Each test data has a label so we could train the model based on the labels. We need a vector[10] of the encoded label for each train data. 
+Each test data has a label so we could train the model based on the labels and calculate accuracy. We need a vector[10] of the encoded label for each train data. 
 
 # Forward Phase
 Every ANN model was a weight matrix and bios matrix for each layer. Our calculation also needs an activation function so that we find Nonlinear functions. The sigmoid function is the activation function we used. Each node calculates $W*X+b$ based on the previous layer's data, weights, and bios. 
 <br/> <br/>
-- W_init(): Matrix with a random number in the range of 0 and 1 for initialization.
-- b_init(): Vector with all zero data for initialization.
-- init_matrix(): 
+- W_init(): returns a matrix with a random number in the range of 0 and 1 for initialization.
+- b_init(): returns a vector with all zero data for initialization.
+- init_matrix(): sets all initializations for our network based on layers.
+- sigmoid(): activation function $1/(1+e^x)$
+- next_layer_activation_function(): this function calculates the forward phase based on inputs. 
+- forward(): all initialization and calculating activations are in this function. The forward function will call previous functions. 
 # Backward Phase
-An ANN model to retrain itself, will compare the last layer predictions to our labels. The difference in derivatives shows how much the weights and bios will change. In each backpropagation, we move toward the minimal cost. The epochs will determine when the training stops. Epochs are the amount of time we repeat the forward and backward phase. 
-
+Backpropagation is so that the network trains itself and adjusts the weights and bios. This algorithm compares the last layer predictions to our labels. The difference derivatives show how much the weights and bios will change. In each backpropagation, we move toward the minimal cost. The epochs will determine when the training stops. Epochs are the amount of time we repeat the forward and backward phase. 
+<br/> <br/>
+- sigmoid_derivate(): calculates the sigmoid derivate needed for the backward phase. 
+- calculate_layer_dervatives(): calculates bios, weights, and activations derivatives. 
+-backpropagation_dev_calculator(): 
 # ANN Model Engeenering
 
 

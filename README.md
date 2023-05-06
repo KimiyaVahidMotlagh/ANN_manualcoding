@@ -5,7 +5,7 @@ Artificial neural networks are computing models based on human neural systems. A
 - [Dataset and Normalization](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#dataset-and-normalization) 
 - [Forward Phase](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#forward-phase)
 - [Backward Phase](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#backward-phase)
-- [ANN Model Engneering]()
+- [ANN Model Engineenering]()
 - [Train and Evaluation](https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/README.md#train--evaluation)
 
 # Dataset and normalization
@@ -26,8 +26,10 @@ Backpropagation is so that the network trains itself and adjusts the weights and
 <br/> <br/>
 - sigmoid_derivate(): calculates the sigmoid derivate needed for the backward phase. 
 - calculate_layer_dervatives(): calculates bios, weights, and activations derivatives. 
--backpropagation_dev_calculator(): 
-# ANN Model Engeenering
+- backpropagation_dev_calculator(): saves and returns the full network derivatives using the previous function.
+- cost(): calculates the difference in the prediction and the label. 
+
+# ANN Model Engineenering
 
 
 # Train & Evaluation

@@ -15,7 +15,7 @@ Each test data has a label so we could train the model based on the labels and c
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/Pictures/example-d2cde38dde1627fc776885213fdb7005.png">
  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/Pictures/example-d2cde38dde1627fc776885213fdb7005.png">
 </picture>
-[Source link](https://cleanlab.ai/blog/label-errors-image-datasets/)
+Source Link: https://cleanlab.ai/blog/label-errors-image-datasets/
 
 # Forward Phase
 Every ANN model was a weight matrix and bios matrix for each layer. Our calculation also needs an activation function so that we find Nonlinear functions. The sigmoid function is the activation function we used. Each node calculates $W*X+b$ based on the previous layer's data, weights, and bios. 

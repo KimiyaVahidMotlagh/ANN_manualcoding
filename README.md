@@ -11,7 +11,7 @@ Artificial neural networks are computing models based on human neural systems. A
 # Dataset and normalization
 The Dataset we are training our code for is Mnist. We chose the Mnist Dataset for its simplicity. In Mnist we have 80000 images, each has 28*28 resolution. 
 Each test data has a label so we could train the model based on the labels and calculate accuracy. We need a vector[10] of the encoded label for each train data. <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/Pictures/example-d2cde38dde1627fc776885213fdb7005.png"> <img 
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/Pictures/example-d2cde38dde1627fc776885213fdb7005.png"> <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src=https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/Pictures/example-d2cde38dde1627fc776885213fdb7005.png">
 </picture> <br/>
 
 # Forward Phase

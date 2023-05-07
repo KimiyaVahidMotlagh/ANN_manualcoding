@@ -15,7 +15,7 @@ Each test data has a label so we could train the model based on the labels and c
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/Pictures/example-d2cde38dde1627fc776885213fdb7005.png">
  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/Pictures/example-d2cde38dde1627fc776885213fdb7005.png">
 </picture>
-Source Link: https://cleanlab.ai/blog/label-errors-image-datasets/
+Image Source Link: https://cleanlab.ai/blog/label-errors-image-datasets/
 
 # Forward Phase
 Every ANN model was a weight matrix and bios matrix for each layer. Our calculation also needs an activation function so that we find Nonlinear functions. The sigmoid function is the activation function we used. Each node calculates $W*X+b$ based on the previous layer's data, weights, and bios. 
@@ -32,10 +32,12 @@ Backpropagation is so that the network trains itself and adjusts the weights and
 - sigmoid_derivate(): calculates the sigmoid derivate needed for the backward phase. 
 - calculate_layer_dervatives(): calculates bios, weights, and activations derivatives. 
 - backpropagation_dev_calculator(): saves and returns the full network derivatives using the previous function.
+- backpropagation_grad_calculator(): returns networks' gradient, which shows how much the weight and bios will change in every epoch.
 - cost(): calculates the difference in the prediction and the label. 
 
 # ANN Model Engineenering
-In engineering an ANN model, we design and set the appropriate architecture. For training a neural network we need both forward and backward phases. Our algorithm is complete in SGD function.  
+In engineering an ANN model, we design and set the appropriate architecture. For training a neural network we need both forward and backward phases. Our algorithm is complete in SGD function. 
+<br/> <br/>
 
 # Train & Evaluation
 For easy training, we combined both phases in SGD function. This function needs a learning rate so that the changes by the derivatives are under our control and change as necessary. This function will return the cost, weights, and bios. 

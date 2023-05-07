@@ -35,7 +35,7 @@ Backpropagation is so that the network trains itself and adjusts the weights and
 - cost(): calculates the difference in the prediction and the label. 
 
 # ANN Model Engineenering
-
+In engineering an ANN model, we design and set the appropriate architecture. For training a neural network we need both forward and backward phases. Our algorithm is complete in SGD function.  
 
 # Train & Evaluation
 For easy training, we combined both phases in SGD function. This function needs a learning rate so that the changes by the derivatives are under our control and change as necessary. This function will return the cost, weights, and bios. 

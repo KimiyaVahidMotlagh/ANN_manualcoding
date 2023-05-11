@@ -38,7 +38,9 @@ Backpropagation is so that the network trains itself and adjusts the weights and
 # ANN Model Engineenering
 In engineering an ANN model, we design and set the appropriate architecture. For training a neural network we need both forward and backward phases. Our algorithm is complete in SGD function. 
 <br/> <br/>
+- SGD(): full network function with epoch and learning rate added to the parameters. This function will train the model and returns weights, bios, and final training cost.
+- cal_accuracy(): calculates accuracy based on how many labels were correctly predicted.
+- show_result(): shows the final accuracy and plots the cost throw the epochs. With the plot, we can witness the change in cost and model training.
 
 # Train & Evaluation
-For easy training, we combined both phases in SGD function. This function needs a learning rate so that the changes by the derivatives are under our control and change as necessary. This function will return the cost, weights, and bios. 
-Our final model has hidden layers with 64 and 16 nodes and a learning rate of 2. This model has 95 percent accuracy without the library optimizers for our Mnist dataset.
+Our final model has hidden layers with 64 and 16 nodes and a learning rate of 2. This model has 95 percent accuracy without the library optimizers for our Mnist dataset. 

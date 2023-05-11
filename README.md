@@ -43,4 +43,9 @@ In engineering an ANN model, we design and set the appropriate architecture. For
 - show_result(): shows the final accuracy and plots the cost throw the epochs. With the plot, we can witness the change in cost and model training.
 
 # Train & Evaluation
-Our final model has hidden layers with 64 and 16 nodes and a learning rate of 2. This model has 95 percent accuracy without the library optimizers for our Mnist dataset.
+Our final model has hidden layers with 64 and 16 nodes and a learning rate of 2. This model has 95 percent accuracy without the library optimizers for our Mnist dataset. The cost during this model's training is like the diagram below:
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/Pictures/CostPlot.jpg">
+ <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/KimiyaVahidMotlagh/ANN_manualcoding/blob/main/Pictures/CostPlot.jpg">
+</picture>
+
